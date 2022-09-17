@@ -1,0 +1,5 @@
+bin/
+.idea/
+.env
+*.npy
+__pycache__/

@@ -1,0 +1,45 @@
+world:
+  width: 200
+  height: 200
+  continent-size: 5
+  aging-speed: 0.3
+
+  material-heights:
+    deep-shallow-water-border: 0.5
+    shallow-water-sand-border: 0.56
+    sand-shrub-border: 0.58
+    shrub-grass-border: 0.6
+    grass-hill-border: 0.63
+    hill-mountain-border: 0.66
+    mountain-snow-border: 0.71
+
+  decorations:
+    deep-water:
+      None: 100
+    shallow-water:
+      palm: 5
+      None: 95
+    sand:
+      palm: 15
+      None: 85
+    shrub:
+      palm: 5
+      None: 95
+    grass:
+      tree: 30
+      palm: 10
+      red-rose: 15
+      pink-rose: 1
+      None: 44
+    hill:
+      pine: 40
+      red-rose: 5
+      pink-rose: 1
+      None: 55
+    mountain:
+      edelweiss: 6
+      pine: 10
+      None: 84
+    snow:
+      blue-rose: 0.1
+      None: 99.9
